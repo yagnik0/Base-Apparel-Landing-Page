@@ -13,6 +13,7 @@ btn.addEventListener('click', function(){
     } else {
         retryMessage.classList.add('hidden')
         errorIcon.classList.add('hidden')
+        inputID.style.border = "1px solid hsl(0, 36%, 70%)"
     }
 })
 
